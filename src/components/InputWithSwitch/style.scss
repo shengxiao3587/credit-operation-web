@@ -1,0 +1,10 @@
+.input-with-switch {
+  display: flex;
+  align-items: center;
+  .ant-switch {
+    margin: 2px 14px 4px 0;
+  }
+  .number-container {
+    flex: auto;
+  }
+}

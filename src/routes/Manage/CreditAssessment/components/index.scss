@@ -1,0 +1,24 @@
+.assessment-main {
+  .ant-input[disabled] {
+    opacity: 1;
+    cursor: auto;
+    border: none;
+    background: #fff;
+    color: rgba(0, 0, 0, .65);
+    padding-left: 0;
+  }
+  #id-div-assessment-wrapper,
+  #id-div-advice-wrapper {
+    margin: 16px;
+    background: white;
+    height: auto;
+    padding: 0 35px;
+  }
+  width: 100%;
+  .button-close {
+    margin-left: 40px;
+    margin-bottom: 16px;
+    width: 88px;
+    height: 36px;
+  }
+}

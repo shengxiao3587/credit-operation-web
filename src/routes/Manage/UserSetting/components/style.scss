@@ -1,0 +1,38 @@
+.user-setting-container {
+  width: 100%;
+  .imagepicker-container {
+    justify-content: center;
+  }
+  .imagepicker-item-wrapper {
+    margin: 0;
+  }
+  .user-setting-avatar {
+    .ant-form-explain {
+      text-align: center;
+    }
+    .avatar-uploader .ant-upload.ant-upload-select {
+      border: none;
+    }
+    .img-wrapper {
+      background: url(/avatar-bg.png);
+      background-size: cover;
+      border-radius: 50%;
+      overflow: hidden;
+      .anticon-plus {
+        display: none;
+      }
+      span {
+        color: #fff;
+        margin-top: 66px;
+        font-size: 10px;
+      }
+    }
+    .has-error .img-wrapper {
+      border: 1px solid #f5222d;
+      border-radius: 50%;
+    }
+    .img-wrapper.img-has-value {
+      background: none;
+    }
+  }
+}

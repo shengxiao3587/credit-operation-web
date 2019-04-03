@@ -1,0 +1,37 @@
+.product-detail-container {
+  width: 100%;
+  .form-item-group {
+    .ant-form-item-children {
+      display: flex;
+      align-items: center;
+      .product-rate {
+        flex: auto;
+        margin-left: 8px;
+        .number-container {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .number-disabled {
+    .number-group .number-after-container .number-after-inner {
+      border: none;
+      background: #fff;
+    }
+  }
+  .form-item-disabled {
+    .form-item-item {
+      display: none;
+    }
+    .form-item-item.product-rate {
+      display: block;
+      margin-left: 0;
+    }
+  }
+}
+
+.form-item-disabled {
+  .ant-select-selection__rendered {
+    margin-left: 0;
+  }
+}

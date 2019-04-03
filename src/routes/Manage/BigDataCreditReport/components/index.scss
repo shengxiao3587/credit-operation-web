@@ -1,0 +1,56 @@
+@import "./common.scss";
+
+@mixin title($value) {
+  text-align: center;
+  font-size: $value;
+}
+
+@mixin block {
+  margin: 16px;
+  background: white;
+}
+
+#id-div-view {
+  width: 100%;
+  .risk-main {
+    padding-left: 54px;
+    height: 94px;
+  }
+  #id-div-report-advice {
+    @include block;
+  }
+  #id-div-view-main {
+    @include block;
+    position: relative;
+    #id-div-top-buttons {
+      position: absolute;
+      right: 16px;
+      top: 20px;
+    }
+    .image-status {
+      position: absolute;
+      right: 104px;
+      top: 69px;
+    }
+    #id-div-small-content {
+      @include title(12px);
+      margin: 8px 0 32px 0;
+      color: #96989C;
+      .small-cell {
+        margin-left: 16px;
+        display: inline-block;
+      };
+      .cell-name {
+        &::after {
+          content: ':';
+          margin-right: 3px;
+        }
+      }
+    }
+    #id-p-side-title {
+      @include title(20px);
+      margin-top: 40px;
+      font-weight: bold;
+    }
+  }
+}

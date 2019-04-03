@@ -1,0 +1,33 @@
+.repaydetail-container {
+  .ant-form {
+    padding: 0 32px;
+  }
+  .ant-form-title {
+    font-size: 15px;
+    background: transparent;
+    padding: 16px 0;
+    margin-bottom: 0;
+  }
+  .repaydetail-field {
+    box-shadow: 0 1px 0 0 #f4f4f5;
+    padding: 8px 0;
+  }
+  .repaydetail-table {
+    .ant-form-item {
+      width: 100%;
+    }
+    .ant-form-item-control-wrapper {
+      width: 100%;
+    }
+  }
+  .ant-form-inline .ant-form-item {
+    margin-bottom: 0;
+  }
+  .detailpage-footer-button-container {
+    margin-top: 16px;
+  }
+  .ant-form-item-label {
+    font-weight: bold;
+  }
+}
+

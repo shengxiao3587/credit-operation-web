@@ -1,0 +1,62 @@
+.user-list-container {
+  width: 100%;
+  .fe-listpage .listpage-table-container {
+    width: 100px;
+    flex: auto;
+  }
+}
+
+.leftPane{
+  min-width: 250px;
+  margin: 0 16px 0 0;
+  background: #fff;
+  position: relative;
+  .leftPane-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #2E333B;
+    margin: 0 16px;
+    border-bottom: 2px solid #F4F4F5;
+    padding: 24px 0 12px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .leftPane-content {
+    padding: 0 16px;
+    margin-bottom: 58px;
+    max-height: 624px;
+    overflow-y: auto;
+    .leftPane-content-row {
+      padding-top: 18px;
+      display: flex;
+      justify-content: space-between;
+      .roleName {
+        cursor:pointer;
+      }
+      .selected {
+        color: #3373cc;
+      }
+    }
+  }
+  .leftPane-foot {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-top: 2px solid #F4F4F5;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .user-list-container .fe-listpage .listpage-main-container {
+    flex-direction: column;
+    .leftPane {
+      margin: 0 0 16px 0;
+    }
+  }
+  .user-list-container .fe-listpage .listpage-table-container {
+    width: 100%;
+  }
+}

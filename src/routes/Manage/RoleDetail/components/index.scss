@@ -1,0 +1,10 @@
+.Role-title {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+  .Role-title-name {
+    font-size: 16px;
+    color: #2E333B;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,317 @@
+@import 'base';
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+p {
+  margin: 0;
+}
+
+.all-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  background: rgba(255, 255, 255, 0);
+  z-index: 1000;
+  display: none;
+}
+
+table tr td{
+  text-align : center;
+}
+
+.buttonDelete{
+  text-align : center;
+  margin-top : 30px;
+  margin-bottom : 30px;
+  font-size : 20px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.xg {
+  .table-button-disabled {
+    color: #CACBCD;
+    pointer-events: none;
+  }
+  .ant-table-tbody > tr > td, .ant-table-thead > tr > th {
+    word-break: break-all;
+    word-break: break-word;
+  }
+  .ant-layout-sider-zero-width-trigger {
+    top: 50%;
+  }
+  .ant-pagination.ant-table-pagination .ant-pagination-total-text {
+    flex: none;
+  }
+  .form-item-readonly .ant-input[disabled] {
+    background-color: #f5f5f5;
+    opacity: 1;
+    cursor: not-allowed;
+    color: rgba(0,0,0,.25);
+    border: 1px solid #d9d9d9;
+    padding: 4px 11px;
+  }
+  .ant-table-thead>tr>th {
+    border-bottom: none;
+  }
+  .ant-table-title {
+    border-bottom: none;
+  }
+  .ant-input-number-disabled {
+    .ant-input-number-input-wrap {
+      border: 1px solid #d9d9d9;
+      .ant-input-number-input {
+        background-color: #f5f5f5;
+        cursor: not-allowed;
+        color: rgba(0,0,0,.25);
+      }
+    }
+  }
+  .ant-col-0 {
+    display: none!important;
+  }
+  .ant-layout-header {
+    background: #fff;
+    z-index: 2;
+    box-shadow: 1px 2px 1px rgba(0,0,0,.072);
+    .ant-menu-item {
+      font-size: 14px;
+    }
+  }
+  .ant-layout-sider {
+    width: 200px;
+    background: #fff;
+  }
+  .ant-layout-sider-trigger {
+    background: #fff;
+    i {
+      color: $primary-color;
+    }
+  }
+  .ant-menu-inline .ant-menu-submenu-title {
+    font-size: 14px;
+    color: #96989C;
+  }
+  .ant-menu-inline .ant-menu-item {
+    font-size: 12px;
+  }
+  .ant-menu-dark.ant-menu-horizontal {
+    border: none;
+  }
+  .ant-table-body {
+    overflow-x: auto!important;
+  }
+  .ant-menu-horizontal {
+    line-height: 64px;
+    border-bottom: none;
+  }
+
+  .ant-layout-header {
+    padding-right: 16px;
+    padding-left: 16px;
+    background: #3E4358;
+    .ant-menu-light {
+      background: #3E4358;
+      .ant-menu-item {
+        color: #fff;
+        transition: .3s all;
+      }
+      .ant-menu-item.ant-menu-item-selected, .ant-menu-item.ant-menu-item-active {
+        font-weight: bold;
+        border-bottom: none;
+        box-shadow: inset 0px -3px 0px 0px $primary-color;
+      }
+    }
+    a {
+      color: #fff;
+      transition: .3s all;
+    }
+    a:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .login-avatar {
+    border: none;
+  }
+
+  .logo-wrapper {
+    background: #3E4358;
+  }
+
+  .ant-menu-inline .ant-menu-item {
+    font-size: 14px;
+  }
+  .ant-menu-dark .ant-menu-item>a {
+   color: #2E333B;
+  }
+  .ant-menu-dark, .ant-menu-dark .ant-menu-sub {
+    background: #fff;
+  }
+  .ant-menu-dark {
+    .ant-menu-submenu {
+      color: rgba(46, 51, 59, 0.4);
+    }
+    .ant-menu-item-active,
+    .ant-menu-item:hover,
+    .ant-menu-submenu-active,
+    .ant-menu-submenu-open,
+    .ant-menu-submenu-selected,
+    .ant-menu-submenu-title:hover {
+      transition: .3s all;
+      color: rgba(46, 51, 59, 0.5);
+    }
+    .ant-menu-item-selected {
+      background-color: rgba(51, 115, 204, 0.05);
+      border-right: 4px solid $primary-color;
+      a {
+        color: $primary-color;
+      }
+    }
+    .ant-menu-inline.ant-menu-sub {
+      box-shadow: none;
+    }
+    .ant-menu-item:hover,
+    .ant-menu-submenu-title:hover {
+      opacity: 0.9;
+    }
+  }
+  .fe-listpage {
+    padding: 0;
+    .listpage-title-container {
+      padding: 16px;
+      margin-bottom: 0!important;
+      height: auto!important;
+      background: #fff;
+    }
+    .ant-form.ant-advanced-search-form {
+      border-radius: 0;
+      border: none;
+      box-shadow: none;
+      margin-bottom: 0!important;
+      padding-top: 0;
+      margin: 0;
+      .search-button {
+        width: auto;
+      }
+    }
+    .listpage-table-container {
+      background: #fff;
+      padding: 16px;
+      .fe-table-title {
+        font-weight: bold;
+      }
+      .ant-table {
+        border: 0;
+        box-shadow: none;
+        .ant-table-thead>tr>th {
+          background: #FAFAFA;
+          font-weight: bold;
+        }
+        .ant-table-row {
+          a + a:before {
+            content:'';
+            border-left: 1px solid #CACBCD;
+            margin-left: 4px;
+            margin-right: 4px;
+          }
+        }
+      }
+      .ant-pagination.ant-table-pagination {
+        display: block;
+        width: auto;
+      }
+      .ant-pagination.ant-table-pagination .ant-pagination-total-text {
+        flex: none;
+      }
+    }
+    .ant-page-title {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+  .ant-btn {
+    border-radius: 4px;
+  }
+  .fe-detailpage {
+    .detailpage-header-title {
+      font-weight: bold;
+      font-size: 16px;
+    }
+  }
+  .fe-listpage .listpage-main-container{
+    flex-flow: nowrap;
+    padding: 16px;
+  }
+  .layout-inline {
+    .ant-form-item-label {
+      width: auto;
+    }
+  }
+}
+
+.ant-select-dropdown-menu-item {
+  line-height: 1.5;
+}
+
+@media (max-width: 575px) {
+  .xg {
+    .ant-form-item-control-wrapper,.ant-form-item-label {
+      display:block;
+      width: 100%;
+    }
+
+    .ant-form-item-label {
+      padding: 0 0 8px;
+      margin: 0;
+      display: block;
+      text-align: left;
+      line-height: 1.5
+    }
+
+    .ant-form-item-label label:after {
+      display: none
+    }
+
+    .ant-col-xs-24.ant-form-item-label {
+      padding: 0 0 8px;
+      margin: 0;
+      display: block;
+      text-align: left;
+      line-height: 1.5
+    }
+
+    .ant-col-xs-24.ant-form-item-label label:after {
+      display: none
+    }
+    .ant-col-pull-2 {
+      right: 0;
+    }
+    [class^=ant-col-]:not([class^=ant-col-offset-]) {
+      width: 100%;
+    }
+  }
+}
+.daterange-datepicker{
+  width: 100%;
+}

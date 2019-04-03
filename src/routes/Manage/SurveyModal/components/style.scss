@@ -1,0 +1,31 @@
+#id-div-survey-modal {
+  width: 100%;
+  .ant-table-thead>tr>th {
+    background: #fafafa;
+    font-weight: bold;
+  }
+  .ant-table-tbody {
+    background: white;
+  }
+  .ant-table-wrapper {
+    margin: 16px;
+  }
+  #id-button-edit {
+    &:after {
+      content: '';
+      margin: 0 4px;
+      border-right: 1px solid #cacbcd;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  .fe-table {
+    background: #fff;
+    padding: 16px;
+    .ant-table {
+      border: none;
+      box-shadow: none;
+    }
+  }
+}

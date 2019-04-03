@@ -1,0 +1,20 @@
+.credit-detail {
+  .menu {
+    background: #fafafa;
+    margin: 0px 35px;
+    margin-top: -10px;
+  }
+  .content {
+    padding: 16px 51px;
+  }
+  .cell-name {
+    &::after {
+      content: ':';
+      margin-right: 3px;
+    }
+  }
+  .table-title {
+    font-size: 15px;
+    font-weight: bold;
+  }
+}

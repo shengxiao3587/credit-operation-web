@@ -1,0 +1,38 @@
+.examine-advice-main {
+  .ant-form-item-control-wrapper {
+    flex: auto;
+  }
+  .space {
+    margin-bottom: 16px;
+  }
+  .button-wrapper {
+    padding: 15px 0 30px 0;
+    button {
+      width: 81px;
+      height: 36px;
+    }
+  }
+  .examine-advice-content {
+    .top-items {
+      border-bottom: 1px solid #e9eaeb;
+      @extend .space;
+    }
+    .bottom-items {
+      display: flex;
+      flex-wrap: wrap;
+      .ant-col-8 {
+        float: none;
+      }
+      .ant-input-wrapper {
+        width: 256px;
+      }
+    }
+    textarea {
+      max-width: 100%;
+    }
+  }
+  .examine-radio {
+    display: block;
+    @extend .space;
+  }
+}

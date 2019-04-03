@@ -1,0 +1,46 @@
+@import "./common.scss";
+
+.box-start-examine {
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  border: 1px dashed #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  .box-start-examine-content {
+    width: 300px;
+    position: relative;
+    padding-top: 30px;
+    p {
+      text-align: center;
+      &::before {
+        content: "\E628";
+        font-family: anticon;
+        color: #F5222D;
+        margin-right: 8px;
+      }
+    }
+  }
+  .button-open-report {
+    border: none;
+    position: relative;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    @extend .center;
+    span {
+      @extend .center;
+    }
+  }
+  .button-link {
+    display: block;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 36px;
+  }
+}

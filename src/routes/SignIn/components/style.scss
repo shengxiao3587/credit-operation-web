@@ -1,0 +1,112 @@
+.login-main {
+  display: flex;
+  position: relative;
+  flex-flow: wrap-reverse;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  .login-bg-photo {
+    position: relative;
+    right: 220px;
+  }
+  .logo-word-photo {
+  }
+  .logo-word {
+    font: 48px PingFangSC-Semibold;
+    color: white;
+    line-height: 66px;
+    padding: 16px;
+    max-width: 600px;
+  }
+  .login-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .login-left {
+    background: url(/login-bg.png) center center no-repeat;
+    background-size: cover;
+    flex: 1 1 200px;
+  }
+  .login-right {
+    width: 450px;
+    position: relative;
+  }
+}
+
+.login-form {
+  max-width: 400px;
+  background: #fff;
+  .login-form-button {
+    width: 100%;
+    background: #e6b981;
+    border: none;
+    width: 274px;
+    margin-top: 30px;
+    &:hover {
+      background: #eacca2;
+    }
+    height: 40px;
+  }
+  .login-logo-wrapper {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(173, 173, 173);
+  }
+  .password-forget {
+    color: #96989c;
+    text-align: right;
+    bottom: 12px;
+    display: none;
+  }
+  .login-logo-text {
+    margin-left: 8px;
+    font: 20px PingFangSC-Light;
+    color: #333333;
+    letter-spacing: 8px;
+    line-height: 60px;
+    margin-bottom: 50px;
+  }
+  .login-logo {
+    img {
+      height: 51px;
+      width: 200px;
+      position: relative;
+      left: 32px;
+    }
+  }
+  .ant-form-item {
+    width: 272px;
+    height: 40px;
+    input {
+      height: 38px;
+    }
+  }
+  .ant-form-item-with-help {
+    margin-bottom: 24px !important;
+  }
+  .text-copyright {
+    position: absolute;
+    bottom: 32px;
+    text-align: center;
+    color: #cacbdd;
+    left: 0;
+    right: 0;
+  }
+}
+
+.ant-layout-footer {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .login-main .logo-word {
+    font-size: 24px;
+    line-height: 42px;
+  }
+  .login-form .text-copyright {
+    position: fixed;
+  }
+}

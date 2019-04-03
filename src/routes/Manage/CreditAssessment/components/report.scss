@@ -1,0 +1,56 @@
+@import "./common.scss";
+
+.credit-report {
+  .report-wrapper {
+    border: 1px dashed #ddd;
+    position: relative;
+    .side-title {
+      display: inline-block;
+      padding: 24px 0 16px 30px;
+      color: #96989c;
+      font-size: 12px;
+    }
+    #id-div-report-content {
+      max-width: 700px;
+      padding: 0 30px 24px 30px;
+      padding-top: 0;
+      .content-cell {
+        margin-bottom: 8px;
+      }
+      .comment {
+        margin-top: 10px;
+      }
+      .button-more {
+        color: #E6B981;
+        margin-left: 5px;
+        cursor: pointer;
+        border: none;
+      }
+    }
+    .button-open-report {
+      position: absolute;
+      right: 24px;
+      border-radius: 4px;
+      cursor: pointer;
+      height: 36px;
+      color: white;
+      text-align: center;
+      line-height: 36px;
+    }
+    .image-status {
+      position: absolute;
+      top: -28px;
+      right: 24px;
+    }
+    .display-name {
+      font-weight: bold;
+      &::after {
+        content: ':';
+        margin: 0 10px 0 3px;
+      }
+    }
+  }
+  .report-value {
+    display: inline;
+  }
+}

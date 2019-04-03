@@ -1,0 +1,27 @@
+{
+  "apiAddress": {
+    "online": "//gateway.toobob.com/cb-manage",
+    "pre": "//gatewayuat.toobob.com/cb-manage",
+    "qaif": "//gateway.qaif.ops.com/cb-manage",
+    "qafc": "//gateway.qafc.ops.com/cb-manage",
+    "dev": "//gateway.dev.ops.com/cb-manage",
+    "local": "//gateway.dev.ops.com/cb-manage",
+    "mock": "//172.16.2.71:8068/mockjsdata/160"
+  },
+  "userApiAddress": {
+    "online": "//gateway.toobob.com/xgusercenter",
+    "pre": "//gatewayuat.toobob.com/xgusercenter",
+    "qaif": "//gateway.qaif.ops.com/xgusercenter",
+    "qafc": "//gateway.qafc.ops.com/xgusercenter",
+    "dev": "//gateway.dev.ops.com/xgusercenter",
+    "local": "//gateway.dev.ops.com/xgusercenter"
+  },
+  "dictApiAddress": {
+    "online": "//gateway.toobob.com/cross-border",
+    "pre": "//gatewayuat.toobob.com/cross-border",
+    "qaif": "//gateway.qaif.ops.com/cross-border",
+    "qafc": "//gateway.qafc.ops.com/cross-border",
+    "dev": "//gateway.dev.ops.com/cross-border",
+    "local": "//gateway.dev.ops.com/cross-border"
+  }
+}

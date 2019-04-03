@@ -1,0 +1,25 @@
+.miss-wrapper {
+  background: #fff;
+  flex-flow: wrap;
+}
+
+.miss-slogan {
+  font-size: 24px;
+  color: #212121;
+  margin-bottom: 36px;
+}
+
+@media screen and (max-width: 768px) {
+  .miss-slogan {
+    font-size: 16px;
+  }
+}
+
+.miss-404 {
+  color: #FF5533;
+  font-size: 120px;
+}
+
+.miss-img-container {
+  margin-right: 36px;
+}

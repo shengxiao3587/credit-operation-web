@@ -1,0 +1,22 @@
+.section-title {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 16px 34px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.table-main {
+  padding: 0 15px 6px 34px;
+  .table-cell {
+    background-color: #fafafa;
+    line-height: 54px;
+    padding-left: 19px;
+    .display-name::after {
+      content: ':';
+      margin: 0 6px 0 2px;
+    }
+  }
+}

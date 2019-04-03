@@ -1,0 +1,31 @@
+.cd-wrap {
+  margin: 16px;
+  background: #fff;
+  padding: 16px;
+  color: #2E333B;
+  .cd-title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    .cd-titleName {
+      font-size: 16px;
+      line-height: 32px;
+      font-weight: 700;
+      padding-left: 16px;
+    }
+  }
+  .cd-row {
+    margin: 0 16px;
+    .cd-col {
+      box-shadow: 0 1px 0 0 #F4F4F5;
+      height: 54px;
+      padding: 16px;
+      .cd-label {
+        font-size: 14px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+

@@ -1,0 +1,35 @@
+
+.notice-detail-container {
+  width: 100%;
+  img {
+    max-width: 100%;
+  }
+  .notice-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 18px;
+  }
+  .notice-subhead {
+    display: flex;
+    justify-content:center;
+    div {
+      margin-right: 24px;
+      font-size: 12px;
+    }
+  }
+  .notice-content {
+    display: flex;
+    justify-content:center;
+    margin-top: 33px;
+    min-height: 300px;
+    .img {
+      max-width: 100%;
+    }
+  }
+  .notice-button {
+    display: flex;
+    justify-content:center;
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,46 @@
+@import "./common.scss";
+
+.material {
+  position: relative;
+  .ant-pagination {
+    display: none !important;
+  }
+  .ant-table {
+    border: none;
+    box-shadow: none;
+    .imagepicker-container {
+      display: inline-block;
+    }
+  }
+  .ant-table-thead>tr>th {
+    background: #fafafa;
+  }
+  #id-title-material {
+    position: absolute;
+    right: 0;
+    @extend .title;
+    @include padding;
+  }
+  #id-div-evidence {
+    .img-container {
+      @include margin;
+    }
+    #id-file-evidence {
+      display: flex;
+      flex-flow: wrap;
+    }
+    .evidence-name {
+      width: 173px;
+      display: inline-block;
+      text-align: center;
+      margin-left: 8px;
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-left: 14px;
+      }
+    }
+  }
+  padding-bottom: 20px;
+}

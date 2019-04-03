@@ -1,0 +1,148 @@
+{
+  "resultCode": "0",
+  "resultData": [
+    {
+      "id": "1",
+      "name": "首页",
+      "children": [
+        {
+          "id": "11",
+          "name": "首页",
+          "icon": "home",
+          "children":[
+            {
+              "id": "111",
+              "name": "账户设置",
+              "href": "/Manage/UserSetting"
+            },
+            {
+              "id": "112",
+              "name": "登录日志",
+              "href": "/Manage/LoginLog"
+            }
+          ]
+        }
+      ]
+    }, {
+      "id": "2",
+      "name": "信贷管理",
+      "children": [
+        {
+          "id": "21",
+          "name": "信贷管理",
+          "icon": "wallet",
+          "children": [
+            {
+              "id": "211",
+              "name": "金融产品管理",
+              "href": "/Manage/Product"
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "name": "授信管理",
+          "icon": "share-alt",
+          "children": [
+            {
+              "id": "221",
+              "name": "授信审批",
+              "href": "/Manage/ExamineList"
+            },
+            {
+              "id": "222",
+              "name": "授信列表",
+              "href": "/Manage/CreditList"
+            }
+          ]
+        },
+        {
+          "id": "23",
+          "name": "提款管理",
+          "icon": "bank",
+          "children": [
+            {
+              "id": "231",
+              "name": "提款审核",
+              "href": "/Manage/WithdrawCheck"
+            },
+            {
+              "id": "232",
+              "name": "提款列表",
+              "href": "/Manage/Withdraw"
+            }
+          ]
+        },
+        {
+          "id": "24",
+          "name": "商品跟踪监控",
+          "icon": "red-envelope",
+          "children": [
+            {
+              "id": "241",
+              "name": "商品监控列表",
+              "href": "/Manage/ProductMonitor"
+            },
+            {
+              "id": "242",
+              "name": "未匹配列表",
+              "href": "/Manage/WaitMatchList"
+            }
+          ]
+        }
+      ]
+    }, {
+      "id": "3",
+      "name": "用户管理",
+      "children": [
+        {
+          "id": "31",
+          "name": "用户管理",
+          "icon": "user",
+          "children": [
+            {
+              "id": "311",
+              "name": "用户管理",
+              "href": "/Manage/User"
+            }
+          ]
+        }
+      ]
+    }, {
+      "id": "4",
+      "name": "客户管理",
+      "children": [
+        {
+          "id": "41",
+          "name": "客户管理",
+          "icon": "user",
+          "children": [
+            {
+              "id": "411",
+              "name": "客户列表",
+              "href": "/Manage/Customer"
+            }
+          ]
+        }
+      ]
+    }, {
+      "id": "5",
+      "name": "内容管理",
+      "children": [
+        {
+          "id": "51",
+          "name": "内容管理",
+          "icon": "notification",
+          "children": [
+            {
+              "id": "511",
+              "name": "公告管理",
+              "href": "/Manage/Notice"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "resultDesc": "SUCCESS"
+}

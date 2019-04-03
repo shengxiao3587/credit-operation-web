@@ -1,0 +1,20 @@
+#id-sidebox-title {
+  width: 100%;
+  padding: 20px 16px;
+  height: auto!important;
+  background: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  .col-content {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #id-col-button {
+    position: absolute;
+    right: 30px;
+    #id-button-new {
+      margin-right: 8px;
+    }
+  }
+}
